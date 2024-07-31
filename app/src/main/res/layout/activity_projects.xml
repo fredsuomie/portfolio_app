@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Projects"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:paddingBottom="16dp" />
+
+    <!-- Example Project Item -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/pj1"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingStart="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Employee Management System using Java"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="An Employee Management System (EMS) is a software application that facilitates the management of employee information and operations within an organization. It streamlines HR processes and automates tasks such as employee data storage, payroll processing, attendance tracking, and performance evaluation." />
+
+            <Button
+                android:id="@+id/project1_more_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View More" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Repeat for Other Projects -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/cga"
+            android:scaleType="centerCrop" />
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingStart="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Employee Management System using Python"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The Employee Management System (EMS) for a university is a software application developed to automate and streamline the management of university staff. This system facilitates the efficient handling of employee-related data and processes such as record management, leave management, payroll processing, and performance evaluation. Developed using Python, the EMS ensures that administrative tasks are performed accurately and promptly, enhancing the overall productivity and operational efficiency of the university's HR department."/>
+
+        <Button
+            android:id="@+id/project2_more_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View More" />
+
+    </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

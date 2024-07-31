@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resume"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:paddingBottom="16dp" />
+
+    <Button
+        android:id="@+id/download_resume_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Download Resume"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Experience: 2019 -2022 PPAl Position: Data Manager, 2022-Present: ProLight Position Co-founder"
+        android:textStyle="bold"
+        android:paddingTop="16dp" />
+
+    <!-- Add Experience Details Here -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Education:Bluecrest University Assoicate Degree In Software Engineering, Marwadi University BSc Cloud Computing*"
+        android:textStyle="bold"
+        android:paddingTop="16dp" />
+
+    <!-- Add Education Details Here -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Certifications:Cloud  Computing, UX-UI Design, Website Development"
+        android:textStyle="bold"
+        android:paddingTop="16dp" />
+
+    <!-- Add Certification Details Here -->
+
+</LinearLayout>
